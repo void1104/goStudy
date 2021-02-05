@@ -44,7 +44,7 @@ func main() {
 	for i := 0; i < 90000009; i++ {
 		wg5.Add(1)
 		//go add5()
-		go mutexAdd()		// 差别不大，是否内部有锁消除或优化
+		go mutexAdd()		// 差别不大，是否内部有锁消除或优化（逃逸分析）
 		//go atomicAdd()
 	}
 	wg5.Wait()

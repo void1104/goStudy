@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209bd1e9-a7b7-4213-866e-cfe827b03e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrent/channel/select多路复用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/channel/优雅的从通道循环取值.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/channel/单向通道.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/channel/基础概念.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/channel/无缓冲的通道.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/goroutine/goroutine与线程.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/goroutine/使用WaitGroup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/goroutine/使用goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/goroutine/启动多个goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/syn.Map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/sync.Once.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/互斥锁.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/原子操作.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/基础.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/读写互斥锁.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/并发安全和锁/原子操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/原子操作.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
