@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209bd1e9-a7b7-4213-866e-cfe827b03e6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/并发安全和锁/原子操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/并发安全和锁/原子操作.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/.gvm/gos/go1.14" />
+  <component name="GOROOT" url="file://C:/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,7 +37,23 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="go.dep" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 原子操作.go">
+  <component name="RunManager" selected="Go Build.go build 3-等待组实现.go">
+    <configuration name="go build 1-channel实现同步.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 3-等待组实现.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 无缓冲的通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -79,11 +96,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 原子操作.go" />
-        <item itemvalue="Go Build.go build 读写互斥锁.go" />
-        <item itemvalue="Go Build.go build 无缓冲的通道.go" />
-        <item itemvalue="Go Build.go build goroutine与线程.go" />
+        <item itemvalue="Go Build.go build 3-等待组实现.go" />
+        <item itemvalue="Go Build.go build 1-channel实现同步.go" />
         <item itemvalue="Go Build.go build 启动多个goroutine.go" />
+        <item itemvalue="Go Build.go build 无缓冲的通道.go" />
       </list>
     </recent_temporary>
   </component>
@@ -101,5 +117,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
