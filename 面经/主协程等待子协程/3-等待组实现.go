@@ -21,6 +21,7 @@ func main() {
 	for i := 0; i < 5; i++ {
 		go cal2(i)
 	}
+	// 阻塞直到等待组的计时器为0
 	wg.Wait()
 	fmt.Println("CAL END...")
 }

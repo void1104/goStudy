@@ -26,9 +26,10 @@ func main() {
 	for i := 0; i < 5; i++ {
 		go cal(i)
 	}
-	// 在channel未关闭之前，主线程不会结束
+	// 在go种，channel未关闭之前，主go程不会结束
 	for range sync1 {
 		count--
+		// 当将所有值从channel中取出后，关闭sync1通道
 		if count == 0 {
 			close(sync1)
 		}

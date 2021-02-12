@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209bd1e9-a7b7-4213-866e-cfe827b03e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面经/数据结构/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面经/消息队列/Broker.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面经/消息队列/Client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" beforeDir="false" afterPath="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
