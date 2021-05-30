@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209bd1e9-a7b7-4213-866e-cfe827b03e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/面经/数据结构/set.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面经/消息队列/Broker.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面经/消息队列/Client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go程序设计/ch1入门/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go程序设计/ch1入门/fetch.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" beforeDir="false" afterPath="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPM/tmp.go" beforeDir="false" afterPath="$PROJECT_DIR$/GPM/tmp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPM/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/GPM/trace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa/主协程等待子协程/1-channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/practice/主协程等待子协程/1-channel实现同步.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa/主协程等待子协程/3-等待组实现.go" beforeDir="false" afterPath="$PROJECT_DIR$/practice/主协程等待子协程/3-等待组实现.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa/数据结构/set.go" beforeDir="false" afterPath="$PROJECT_DIR$/practice/数据结构/set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa/消息队列/Broker.go" beforeDir="false" afterPath="$PROJECT_DIR$/practice/消息队列/Broker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa/消息队列/Client.go" beforeDir="false" afterPath="$PROJECT_DIR$/practice/消息队列/Client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go学习笔记/4-函数/4.4-匿名函数/demo2.go" beforeDir="false" afterPath="$PROJECT_DIR$/go学习笔记/4-函数/4.4-匿名函数/demo2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go学习笔记/4-函数/4.4-匿名函数/闭包.go" beforeDir="false" afterPath="$PROJECT_DIR$/go学习笔记/4-函数/4.4-匿名函数/闭包.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go学习笔记/4-函数/4.4-匿名函数/闭包_延迟求值.go" beforeDir="false" afterPath="$PROJECT_DIR$/go学习笔记/4-函数/4.4-匿名函数/闭包_延迟求值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go学习笔记/5-数据/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/go学习笔记/5-数据/demo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go学习笔记/5-数据/字典.go" beforeDir="false" afterPath="$PROJECT_DIR$/go学习笔记/5-数据/字典.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go学习笔记/6-方法/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/go学习笔记/6-方法/demo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go程序设计/ch2程序结构/echo4.go" beforeDir="false" afterPath="$PROJECT_DIR$/go程序设计/ch2程序结构/echo4.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1o0krmuWdc7Md0g0ib9433qDhEN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,74 +55,66 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="go.dep" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 3-等待组实现.go">
-    <configuration name="go build 1-channel实现同步.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoLand\goStudy\go学习笔记\4-函数\4.4-匿名函数" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build demo.go">
+    <configuration name="go build demo.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/面经/主协程等待子协程/1-channel实现同步.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go学习笔记/6-方法/demo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 3-等待组实现.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/面经/主协程等待子协程/3-等待组实现.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go程序设计/ch1入门/demo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 无缓冲的通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build dup1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/concurrent/channel/无缓冲的通道.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go程序设计/1_入门/dup1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 读写互斥锁.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build echo4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/concurrent/并发安全和锁/读写互斥锁.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go程序设计/ch2程序结构/echo4.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 原子操作.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build fetchall.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/concurrent/并发安全和锁/原子操作.go" />
       <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 启动多个goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/concurrent/goroutine/启动多个goroutine.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build goroutine与线程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/concurrent/goroutine/goroutine与线程.go" />
-      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go程序设计/ch1入门/fetchall.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 3-等待组实现.go" />
-        <item itemvalue="Go Build.go build 1-channel实现同步.go" />
-        <item itemvalue="Go Build.go build 启动多个goroutine.go" />
-        <item itemvalue="Go Build.go build 无缓冲的通道.go" />
+        <item itemvalue="Go Build.go build demo.go" />
+        <item itemvalue="Go Build.go build echo4.go" />
+        <item itemvalue="Go Build.go build fetchall.go" />
+        <item itemvalue="Go Build.go build dup1.go" />
+        <item itemvalue="Go Build.go build demo.go (2)" />
       </list>
     </recent_temporary>
   </component>

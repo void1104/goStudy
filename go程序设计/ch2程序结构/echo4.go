@@ -1,1 +1,5 @@
-package ch2程序结构
+package main
+
+func main() {
+
+}
